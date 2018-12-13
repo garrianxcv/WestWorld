@@ -1,0 +1,47 @@
+html{ height: 100%;}
+
+body{
+	/*background: url(https://images.pexels.com/photos/316080/pexels-photo-316080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+	/*background: url(https://i.imgur.com/6XxLQkY.gif);*/
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),/*Background Overlay*/
+				url(http://t.wallpaperweb.org/wallpaper/nature/1920x1080/View_of_Monument_Valley.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+	margin: 0;
+	color: black;
+}
+
+nav ul a {
+	margin: 30px;
+	padding: 0;
+	font-size: 2rem;
+	color: black;
+}
+
+nav ul a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul a:hover {
+	text-decoration-color: none;
+	color: red;
+}
+
+#park1 {
+	
+
+}
+
+.row {
+	padding: 5px;
+}
+div img {
+	width: 100%;
+	height: 100%;
+}

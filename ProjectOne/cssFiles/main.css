@@ -1,0 +1,78 @@
+html{ height: 100%;}
+
+body{
+	/*background: url(https://images.pexels.com/photos/316080/pexels-photo-316080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+	/*background: url(https://i.imgur.com/6XxLQkY.gif);*/
+	background: /*Background Overlay*/
+				linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+				url(http://t.wallpaperweb.org/wallpaper/nature/1920x1080/View_of_Monument_Valley.jpg);
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+	margin: 0;
+}
+
+nav ul a{
+	margin: 30px;
+	padding: 0;
+	font-size: 2rem;
+	color: white;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: black;
+	background: rgba(0,0,0,0);
+}
+
+
+ul li {
+	margin: 5px;
+	display: inline;
+	text-decoration: none;
+	color: white;
+} 
+
+.icon-bar {
+	background-color: white;
+}
+#content{
+	text-align: center;
+	padding-top: 20%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#globe{
+	size: 50%;
+}
+
+.fas {
+	size: 8px;
+	font-weight: 300px;
+}
+
+h1, h3 {
+	color: white;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 6em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
